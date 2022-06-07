@@ -233,7 +233,7 @@ h3 {
 }
 
 .Feature {
-  padding: 3% 15%;
+  padding: 3% 15% 1.5% 15%;
 }
 .feature-table {
   margin: 0 auto 40px auto;
@@ -243,6 +243,7 @@ h3 {
 }
 .feature-p {
   line-height: 2;
+  font-size: 20px;
 }
 .feature-col1 {
   padding-left: 5rem;
