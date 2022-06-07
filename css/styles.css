@@ -146,6 +146,7 @@ h3 {
 /* >>>>>>>>>>>>>>>>>>>>>>>> HOME PAGE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .top-bg {
   padding-top: 6.5%;
+  background-color: #E8F0F7; 
   background-image: url(../picture/apartment.jpg);
   height: 33rem;
   background-repeat: no-repeat;
