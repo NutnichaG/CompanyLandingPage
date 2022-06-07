@@ -37,7 +37,7 @@ h3 {
 }
 .bigg {
   font-size: 1.875rem;
-  padding-bottom: 1vw;
+  padding-bottom: 1rem;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>> MENU NAVIGATOR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -215,7 +215,7 @@ h3 {
 }
 .Room {
   margin-top: 1%;
-  padding-left: 10;
+  padding-left: 10%;
   width: 50%;
 }
 .roomc {
