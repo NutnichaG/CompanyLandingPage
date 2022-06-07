@@ -144,12 +144,6 @@ h3 {
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>> HOME PAGE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-@media (max-width: 650px) {
-	body.custom-background {
-		background-attachment: scroll !important;
-	}
-}
-
 .top-bg {
   padding-top: 6.5%;
   background-image: url(../picture/apartment.jpg);
