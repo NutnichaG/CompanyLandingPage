@@ -255,6 +255,9 @@ h3 {
 .feature-first {
   padding-top: 15px;
 }
+.ftable {
+  padding-right: 4.5vw;
+}
 
 .Comment {
   text-align: center;
