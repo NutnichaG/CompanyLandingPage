@@ -1,0 +1,549 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Robotic", system-ui;
+  font-size: 1rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  color: #010912;
+}
+
+h2 {
+  font-size: 3.75rem;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h3 {
+  font-size: 1.875rem;
+  padding-bottom: 20px;
+}
+
+.big1 {
+  font-size: 1.875rem;
+}
+.big2 {
+  font-size: 1.125vw;
+}
+.big3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+.bigg {
+  font-size: 1.875rem;
+  padding-bottom: 1vw;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> MENU NAVIGATOR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.navbar {
+  background-color: #F3F7FA;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  color: #6B533A;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background: #F3F7FA;
+  color: #3D536B;
+  text-decoration: underline;
+}
+
+.nav-left {
+  padding-left: 5%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+.nav-right {
+  margin-right: 10%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+.nav-txt {
+  margin-left: 5%;
+}
+.nav-last {
+  margin-right: 8px;
+  width: 110px;
+}
+.nav-btn {
+  width: 135px;
+}
+
+.booking {
+  border-radius: 12px;
+  border: 1px solid #D9D9D9;
+  background-color: #225480;
+  color: white;
+  font-size: 1rem;
+  padding: 6px;
+  cursor: pointer;
+}
+.booking:hover {
+  background: #4A6A86;
+  color: white;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> BOTTOM <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.Bottom {
+  background-color: #E8F0F7;
+  width: 100%;
+  padding: 35px 5% 20px 5%;
+}
+.bottom {
+  position: relative;
+  top: 575px;
+}
+
+.bot-table {
+  width: 100%;
+}
+
+.subscribe {
+  vertical-align: text-top;
+  text-align: right;
+}
+.sub {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #E8F0F7;
+  width: 350px;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.bot {
+  margin-bottom: 0;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.link {
+  background-color: #E8F0F7;
+  color: black;
+  text-decoration: none;
+}
+.link:hover {
+  background: #E8F0F7;
+  color: black;
+  text-decoration: none;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> HOME PAGE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.top-bg {
+  padding-top: 6.5%;
+  background-image: url(../picture/apartment.jpg);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.5;
+}
+.Top {
+  position: absolute;
+  top: 5.5%;
+  padding: 17vh 5%;
+  width: 70%;
+  line-height: 2;
+  font-weight: 700;
+  font-size: 18px;
+}
+.top-p {
+  color: #172E48;
+}
+.top-btn1 {
+  margin-right: 20px;
+  margin-top: 16px;
+  padding: 4px;
+  height: 3rem;
+  background-color: white;
+  color: #225480;
+  border-color: #225480;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.top-btn1:hover {
+  background: #225480;
+  color: white;
+}
+.top-btn2 {
+  margin-right: 20px;
+  margin-top: 16px;
+  padding: 4px;
+  height: 3rem;
+  background-color: white;
+  color: #225480;
+  border-color: #225480;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.top-btn2:hover {
+  background: #225480;
+  color: white;
+}
+
+.Why {
+  text-align: center;
+  padding: 4% 15%;
+}
+
+.room-table {
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+}
+.Room {
+  margin-top: 1%;
+  padding-left: 10vw;
+  width: 50%;
+}
+.roomc {
+  position: absolute;
+  right: 10vw;
+  width: 40vw;
+}
+.roomcc {
+  padding-top: 1.8vw;
+}
+.room-size {
+  height: 26.5vw;
+}
+.room-color {
+  background-color: #E8F0F7;
+  width: 100%;
+  height: 30vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Feature {
+  padding: 3% 15%;
+}
+.feature-table {
+  margin: 0 auto 40px auto;
+  padding: 5px 20px;
+  width: 90%;
+  border: 1px solid Navy;
+}
+.feature-p {
+  line-height: 2;
+}
+.feature-col1 {
+  padding-left: 5rem;
+}
+.marks {
+  color: Navy;
+  font-weight: bold;
+}
+.feature-first {
+  padding-top: 15px;
+}
+
+.Comment {
+  text-align: center;
+}
+.block-comment {
+  height: 30vw;
+  background-color: #4A6A86;
+}
+.comment-p {
+  font-size: 3vw;
+  width: 50%;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+.comment-p2 {
+  font-size: 3vw;
+  width: 50%;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+.comment-name {
+  font-size: 1rem;
+  color: white;
+}
+
+.bigc {
+  font-size: 3rem;
+  padding: 0 30%;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> CONTACT US <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.tel {
+  background-color: #E8F0F7;
+  color: black;
+  text-decoration: none;
+}
+.tel:hover {
+  background: #E8F0F7;
+  color: navy;
+  text-decoration: underline;
+}
+
+.con-map {
+  position: relative;
+  top: 0;
+}
+
+.email-phone {
+  display:inline-table;
+  width: 107.5%;
+}
+
+.email {
+  display:table-cell;
+  padding-right: 20px;
+}
+
+.phone {
+  display:table-cell;
+}
+
+.Contacts {
+  position: absolute;
+  top: 60px;
+  left: 2%;
+  margin-top: 20px;
+  width: 45%;
+}
+
+.box1 {
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid #D9D9D9;
+}
+.box2 {
+  width: 85%;
+  padding: 10px 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid #D9D9D9;
+}
+
+.msg {
+  width: 100%;
+  height: 100px;
+  padding: 10px 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid #D9D9D9;
+}
+.submit {
+  margin-top: 20px;
+  width: 7rem;
+  height: 3.5rem;
+  background-color: #93B5C6;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.submit:hover {
+  background: #DDDDDD;
+  color: black;
+}
+
+.map {
+  position: absolute;
+  top: 60px;
+  left: 52%;
+  width: 46%;
+}
+
+.maps {
+  border: 0;
+  height: 450px;
+  width: 100%;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> FAQS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.sub-topic {
+  text-align: center;
+  padding-top: 90px;
+  font-size: 2.75rem;
+}
+
+.faqs {
+  background-color: #4A6A86;
+  color: white;
+  padding: 30px 0;
+}
+
+.faq {
+  width: 100%;
+}
+
+.plus {
+    text-align: right;
+}
+
+.b {
+  padding: 20px 5%;
+}
+
+.space {
+  padding-right: 50px;
+  width: 50%;
+  height: 8vw;
+}
+
+.topic {
+    font-size: 2.667rem;
+}
+
+.tablel {
+  border-collapse: collapse;
+}
+
+.table-line {
+  border-bottom: 0.5px solid #D9D9D9;
+}
+.table-line:last-child {
+  border-bottom: none;
+}
+
+.click {
+  color: black;
+}
+.click:hover {
+  color: #3E627C;
+}
+
+#more1 {
+  background-color: white;
+  padding: 20px 5%;
+  color: black;
+}
+#Readmore1 {
+  margin-top: 20px;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #E8ECF1;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+}
+#Readmore1:hover {
+  background: #C9D5E5;
+  color: black;
+  text-decoration: none;
+}
+
+#more2 {
+  background-color: white;
+  padding: 20px 5%;
+  color: black;
+}
+#Readmore2 {
+  margin-top: 20px;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #E8ECF1;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+}
+#Readmore2:hover {
+  background: #C9D5E5;
+  color: black;
+  text-decoration: none;
+}
+
+#more3 {
+  background-color: white;
+  padding: 20px 5%;
+  color: black;
+}
+#Readmore3 {
+  margin-top: 20px;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #E8ECF1;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+}
+#Readmore3:hover {
+  background: #C9D5E5;
+  color: black;
+  text-decoration: none;
+}
+
+#more4 {
+  background-color: white;
+  padding: 20px 5%;
+  color: black;
+}
+#Readmore4 {
+  margin-top: 20px;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #E8ECF1;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+}
+#Readmore4:hover {
+  background: #C9D5E5;
+  color: black;
+  text-decoration: none;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> BOOK <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.date-submit {
+  margin-bottom: 30px;
+}
+
+.book1 {
+  background-color: #E8F0F7;
+  width: 100%;
+  height: 550px;
+}
+.book2 {
+  position: relative;
+  top: 100.4px;
+  text-align: center;
+}
