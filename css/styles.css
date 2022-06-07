@@ -11,7 +11,7 @@ li {
 
 h1 {
   color: #010912;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 h2 {
@@ -147,16 +147,19 @@ h3 {
 .top-bg {
   padding-top: 6.5%;
   background-image: url(../picture/apartment.jpg);
-  height: 550px;
+  height: 33rem;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   opacity: 0.5;
 }
+.h1top {
+  font-size: 2.8rem;
+}
 .Top {
   position: absolute;
   top: 5.5%;
-  padding: 17vh 5%;
+  padding: 9% 5%;
   width: 80%;
   line-height: 2;
   font-weight: 700;
@@ -164,11 +167,12 @@ h3 {
 }
 .top-p {
   color: #172E48;
+  font-size: 1.15rem;
 }
 .top-btn1 {
   margin-right: 20px;
-  margin-top: 16px;
-  padding: 4px;
+  margin-top: 1rem;
+  padding: 0.25rem;
   height: 3rem;
   background-color: white;
   color: #225480;
@@ -184,8 +188,8 @@ h3 {
 }
 .top-btn2 {
   margin-right: 20px;
-  margin-top: 16px;
-  padding: 4px;
+  margin-top: 1rem;
+  padding: 0.25rem;
   height: 3rem;
   background-color: white;
   color: #225480;
@@ -211,7 +215,7 @@ h3 {
 }
 .Room {
   margin-top: 1%;
-  padding-left: 10vw;
+  padding-left: 10;
   width: 50%;
 }
 .roomc {
