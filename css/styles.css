@@ -11,6 +11,7 @@ li {
 
 h1 {
   color: #010912;
+  padding-bottom: 20px;
 }
 
 h2 {
@@ -146,7 +147,7 @@ h3 {
 .top-bg {
   padding-top: 6.5%;
   background-image: url(../picture/apartment.jpg);
-  height: 70vh;
+  height: 550px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -156,7 +157,7 @@ h3 {
   position: absolute;
   top: 5.5%;
   padding: 17vh 5%;
-  width: 70%;
+  width: 80%;
   line-height: 2;
   font-weight: 700;
   font-size: 18px;
